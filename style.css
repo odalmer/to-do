@@ -107,7 +107,7 @@ label::after{
   }
   .horario-container {
     width: 100%;
-    min-height: auto;
+    height: 100%;
     margin-top: 1%;
     border: none;
   }
