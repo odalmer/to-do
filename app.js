@@ -43,3 +43,4 @@ function CreateActivity(newActivity, actIndex) {
     container.remove();
   });
 }
+
