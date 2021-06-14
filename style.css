@@ -15,13 +15,14 @@ body {
 
 .horario-container {
   display: grid;
-  grid-template-rows: 9% auto 10%;
+  grid-template-rows: 70px auto 50px;
   margin-top: 4vh;
   border: solid #1F1F1F;
   border-radius: 20px;
   width: 70%;
   max-width: 600px;
-  min-height: 80vh;
+  min-height: 90vh;
+  max-height: 100vh;
 
 }
 
@@ -108,7 +109,7 @@ label::after{
   }
   .horario-container {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     margin-top: 1%;
     border: none;
   }
