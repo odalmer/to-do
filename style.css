@@ -9,7 +9,7 @@ body {
 .container {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   justify-content: center;
 }
 
@@ -27,7 +27,6 @@ body {
 }
 
 .activities-container {
-  height: 100%;
   padding: 8px 48px;
 }
 
@@ -109,7 +108,7 @@ label::after{
   }
   .horario-container {
     width: 100%;
-    min-height: 90vh;
+    min-height: auto;
     margin-top: 1%;
     border: none;
   }
