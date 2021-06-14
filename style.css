@@ -106,11 +106,11 @@ label::after{
   }
   .horario-container {
     width: 100%;
-    min-height: 90vh;
+    height: 90vh;
     margin-top: 0;
     border: none;
   }
   .container{
-    min-height: 100vh;
+    min-height: 90vh;
   }
 }
