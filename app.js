@@ -43,4 +43,9 @@ function CreateActivity(newActivity, actIndex) {
     container.remove();
   });
 }
+// var divContainer = document.getElementsByClassName('container')
+$(document).ready(function () {
+  var height = $(window).height();
 
+  $(".container").height(height);
+});
