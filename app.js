@@ -22,7 +22,7 @@ function AddNewActivity() {
     activities.push(newActivity);
   }
 }
-
+CreateActivity('Add a activity!', 0);
 function CreateActivity(newActivity, actIndex) {
   var container = document.createElement("div");
   var checkbox = document.createElement("input");
